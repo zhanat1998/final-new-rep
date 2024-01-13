@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    &__card {
+        padding: 30px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+}
+
+.sort {
+    display: flex;
+    gap: 20px;
+}
+
+.ul__post {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 50px 0px 0px;
+}
+
+.post__li {
+    display: inline-flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #EEF2D1;
+}
+
+
+.header_login {
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
