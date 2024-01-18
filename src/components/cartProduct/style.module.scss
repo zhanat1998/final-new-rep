@@ -1,0 +1,33 @@
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.cartProducts {
+    width: 100%;
+    height: 80vw;
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.removeCart {
+    color: #F41E1E;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: end;
+    width: 100%;
+    cursor: pointer;
+}

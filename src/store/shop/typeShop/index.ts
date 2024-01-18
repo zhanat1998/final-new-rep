@@ -1,25 +1,20 @@
 export type Prod = {
     title: string;
     description: string;
-    price: string;
+    price: number;
     image: string;
 }
 export type Product = {
     title: string;
     description: string;
     price: string;
-    id: number | string;
+    id: number;
     image: string;
 }
 type InitialStateType = {
+    all: Product[];
     products: Product[];
-    product: {
-        image: string;
-        price: string;
-        id: number | string;
-        title: string;
-        description: string;
-    };
+    product: Product;
     isLoad: boolean;
     error: string;
 }
@@ -28,10 +23,11 @@ export const initialState: InitialStateType = {
     error: '',
     isLoad: false,
     products: [],
+    all: [],
     product: {
         title: '',
         description: '',
-        price: '',
+        price: "0",
         id: 0,
         image: '',
     },

@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #EEF2D1;
+    border-radius: 20px;
+    width: 45vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 0;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 40px
+    }
+
+    &__item {
+        color: #000;
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__item:hover {
+        color: aqua;
+    }
+}

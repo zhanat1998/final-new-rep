@@ -14,7 +14,7 @@ export const registerAction = createAsyncThunk<undefined, Login, { rejectValue: 
             const response = await axiosInstance.post('register/', data);
             navigate('/');
             localStorage.setItem('token', response.data.token);
-            return response.data;
+            return response.data.token;
         } catch (e) {
             return thunkAPI.rejectWithValue('Произошла ошибка при регистрации!');
         }
@@ -30,7 +30,7 @@ export const loginAction = createAsyncThunk<undefined, Login, { rejectValue: str
             const response = await axiosInstance.post('login/', data);
             navigate('/');
             localStorage.setItem('token', response.data.token);
-            return response.data;
+            return response.data.token;
         } catch (e) {
             return thunkAPI.rejectWithValue('Произошла ошибка при авторизации!');
         }

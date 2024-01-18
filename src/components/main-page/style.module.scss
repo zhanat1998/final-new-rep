@@ -1,3 +1,9 @@
+.container {
+    width: 90vw;
+    margin: 0 auto;
+
+}
+
 .main {
     display: flex;
     gap: 10px;
@@ -7,30 +13,36 @@
         padding: 30px 20px;
         display: flex;
         flex-wrap: wrap;
-        gap: 100px;
+        gap: 60px;
     }
 }
 
-.sort {
+.generateSorting {
     display: flex;
     gap: 20px;
 }
 
-.ul__post {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 0px 50px 0px 0px;
+.sort:hover {
+    cursor: pointer;
+    color: green;
 }
 
-.post__li {
-    display: inline-flex;
+.generateSorting {
+    margin-left: 20px;
+}
+
+
+.generalAddForButton {
+    display: flex;
     padding: 10px 30px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     border-radius: 20px;
     background: #EEF2D1;
+    width: 170px;
+    margin-left: auto;
 }
+
 
 
 .header_login {

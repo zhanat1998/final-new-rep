@@ -1,13 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import LoginPage from "./login";
-import MainPage from "./main-page/main-page";
+import MainPageContainer from "../container/mainContainer";
 import CreateProduct from "../components/createProduct/createProduct";
 import ReadProduct from "../components/readProduct/readProduct";
 import UpdateProduct from "../components/updateProduct/updateProduct";
+import CartProductsContainer from "../container/cartProduct";
 export const router = createBrowserRouter([
     {
         path: '/',
-        element: < MainPage />
+        element: < MainPageContainer />
     },
     {
         path: '/login',
@@ -27,6 +28,6 @@ export const router = createBrowserRouter([
     },
     {
         path: '/cart-products',
-        element: <CartProducts />
+        element: <CartProductsContainer />
     },
 ]);

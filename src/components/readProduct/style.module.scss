@@ -1,54 +1,52 @@
-section {
-    width: 100%;
-    height: 100%;
-}
+// section {
+//     width: 100%;
+//     max-width: 1680px;
+//     margin: 0 auto;
+//     padding: 0 10px;
+// }
 
-.container {
-    max-width: 1680px;
-    margin: 0 auto;
-    padding: 0 10px;
-}
+// .childCont {
+//     padding: 20px 0px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     gap: 20px;
+// }
 
-.ul {
-    padding: 20px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
+// .main {
+//     width: 100%;
+//     text-align: end;
+// }
 
-.main {
-    width: 100%;
-    text-align: end;
-}
+// .generate {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
 
-.info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+//     &__card {
+//         display: flex;
+//         gap: 100px;
+//     }
 
-    &__card {
-        display: flex;
-        gap: 100px;
-    }
+//     &__forImage {
+//         max-width: 400px;
+//         height: 400px;
+//     }
 
-    &__div {
-        max-width: 600px;
-        height: 600px;
-    }
+//     &__image {
+//         width: 100%;
+//         height: 100%;
+//         border-radius: 40px;
+//     }
+// }
 
-    &__image {
-        width: 100%;
-        ;
-        height: 100%;
-        border-radius: 40px;
-    }
-
-    &__desc {
-        max-width: 600px;
-        font-size: 18px;
-        font-weight: 20px;
-        width: 450px;
-        line-height: 30px;
-    }
-}
+// .forText {
+//     max-width: 600px;
+//     font-size: 18px;
+//     font-weight: 20px;
+//     width: 450px;
+//     line-height: 30px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }

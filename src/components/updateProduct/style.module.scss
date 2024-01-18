@@ -1,0 +1,74 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &__btn {
+        padding: 20px;
+        margin: 20px;
+        width: 98px;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px #EEF2D1 solid;
+        background: #EEF2D1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__buttonSubmit {
+        padding: 20px;
+        margin: 20px;
+        width: 120px;
+        height: 20px;
+        border-radius: 10px;
+        border: 1px #EEF2D1 solid;
+        background: #EEF2D1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__check {
+        display: flex;
+        gap: 250px;
+    }
+
+    &__generateInput {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+
+    &__productForm {
+        padding: 15px 50px;
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+.textInput {
+    width: 500px;
+    height: 45px;
+    border: 1px solid rgba(106, 93, 93, 0.20);
+    border-radius: 10px;
+}
+
+.post__error {
+    color: red;
+}
+
+.photo {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+}

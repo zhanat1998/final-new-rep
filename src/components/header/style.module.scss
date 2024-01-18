@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 15px;
+}
+
+.logIn {
+    &:hover {
+        color: blue($color: #36237c);
+    }
+
+    padding: 5px 3px;
+}
+
+.forToken {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+
+}
